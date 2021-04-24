@@ -56,9 +56,5 @@ I have explained and answered all questions as were asked to the best of my abil
 issues you can contact me. I have tried my best to explain my model building process as well. Though some minor error might have crept in
 during the documentation process. If that is the case or there are any questions, feedbacks etc feel free to contact me.
 
-My details are:
 
-Email - aaryan2134@gmail.com
-Phone number - +91-9650362429
 
-Thank you!
