@@ -1,13 +1,3 @@
-Environment details
-1. I used windows 10, I5 9600KF, GTX 1650 super, 16gb RAM and 240gb storage
-2. Used jupyter notebook to run the project using python 3
-3. Downloaded jupyter notebook and ran it on my above setup using cmd. 
-4. The other requirements are listed in the requirement.txt file as asked in the rules.
-
-NOTE:
-The upload option only allows 20mb of upload but the datasets provided to us were 133mb even in
-.zip format. So i couldn't provide those. So you would have to use those on your own or you can
-email me if you require them as  i cannot upload it in the submission window due to the upload limit.
 
 Instructions:
 Data pre-processing:
