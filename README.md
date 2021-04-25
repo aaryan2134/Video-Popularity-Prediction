@@ -33,8 +33,12 @@ I removed a few extreme values to avoid outliers. The deleted values and the met
 ## Model Used
 ### Linear Regression
 
-Note: Got best results with Linear Regression. I tried XGBoost, Random Forest and SVM regression but results with Linear Regression were the most
+**Note:** Got best results with Linear Regression. I tried XGBoost, Random Forest and SVM regression but results with Linear Regression were the most
 suitable.
+
+**Note:** As the image dataset is too big to upload here, I have provided this link to download it.
+
+[Image Data set](https://drive.google.com/file/d/1KP91f34_cMBmRmsg9uk-w9LMygX5mDwq/view?usp=sharing)
 
 
 
