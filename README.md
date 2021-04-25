@@ -1,61 +1,40 @@
 # Video Views Prediction using Machine Learning
 
-Instructions:
-Data pre-processing:
-I used the metadata provided directly and removed few values and features while training my model
-based on my observation, visualisation graphs and results. Those details are properly documented in the
-source code provided in form of a jupyter notebook as well as .txt format. Preferably use jupyter notebook
-for testing. 
-I took the average of the the image pixel data, description data and title data and added those to a common file
-which was used for training the model. The file has been provided.
-All the graphs and techniques used are provided in the jupyter notebook file for reference as well.
+## Instructions:
+1. Download Jupyter Notebook(or use Google Colab)
+2. Download the zip files and extract in directory
+3. Open the provided jupyter notebook
+4. Add the location of the training and testing data set provided with the code
+5. Run to get the predictions
+6. Data visualisation has also been done in the code. Refer comments for that
 
-Features used:
+## Data pre-processing:
+The metadata was used as it is given. For using image pixel data, discription data and title data, I used the average
+of the values provided to make it easy for analysis. With visulation, the results from this approach looked satisfactory.
+
+## Features used:
 I didn't use 'views' and 'comp_id' for obvious reasons with the training dataset.
 The list of features used are:
-1.embed
-2.ratio
-3.duration
-4.language
-5.partner
-6.n_likes
-7.n_tags
-8.n_formats
-9.hour
-10.Average(average of pixel data of images)
-11.average_d(average of description data)
-The features were selected using common logic, graphs, results from testing and observations.
+1. embed
+2. ratio
+3. duration
+4. language
+5. partner
+6. n_likes
+7. n_tags
+8. n_formats
+9. hour
+10. Average(average of pixel data of images)
+11. average_d(average of description data)
 
-After setting up the files, data pre processing and feature extraction, i tested several machine learning models 
-Some of the test ones include XGBoost, Random Forest, Linear Regression and SVM regression
-Finally, I came to the conclusion that Linear Regression was based for the given dataset(based on
-my knowledge). The model was imported from sklearn library.
+## Outlier removal
+I removed a few extreme values to avoid outliers. The deleted values and the method to delete has been given in the code with comments to explain it as well.
 
-Then i trained the model using the code i have provided.
+## Model Used
+### Linear Regression
 
-I removed fractional and negative values as they were not suitable for us. Also, based on my observation
-and 25% percentile of views training set, I found that minimum views should be 70.
-So i converted all values computed which were less than 70 to 70. This was meant to remove errors
-due to errors in dataset and get a more logical and understandable result.
-
-Finally, I saved the file on a .csv format using the code provided in the format as given.
-I used pandas dataframe method to achieve this task.
-
-To reproduce the results:
-(preferably use jupyter notebook code as that is properly formatted and my used platform as well)
-1. Set the environment as listed above
-2. Open the jupyter notebook/source code provided
-3. Give the import location of the training dataset and testing dataset as mentioned in the code
-4. All details have been mentioned in the code with appropriate comments.
-5. Run the code after this.
-6. You will get the solution.txt file in the directory or you can change location or name according to your requirements.
-7. The solution.csv file can be used to do analysis and testing after that.
-
-I have provided my submitted solution.csv as well for reference purpose.
-
-I have explained and answered all questions as were asked to the best of my ability. If i have missed anything or there are certain
-issues you can contact me. I have tried my best to explain my model building process as well. Though some minor error might have crept in
-during the documentation process. If that is the case or there are any questions, feedbacks etc feel free to contact me.
+Note: Got best results with Linear Regression. I tried XGBoost, Random Forest and SVM regression but results with Linear Regression were the most
+suitable.
 
 
 
