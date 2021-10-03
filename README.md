@@ -1,5 +1,8 @@
 # Video Views Prediction using Machine Learning
 
+## Awards
+Won 3rd Prize in Video Popularity Hackathon organised by Bitgrit and Mathematics and Computing Society, DTU.
+
 ## Instructions:
 1. Download Jupyter Notebook(or use Google Colab)
 2. Download the zip files and extract in directory
